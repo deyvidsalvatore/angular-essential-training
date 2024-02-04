@@ -10,9 +10,8 @@ import { CategoryListPipe } from './category-list.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MediaItemFormComponent } from './media-item-form/media-item-form.component';
 import { lookupListToken, lookupLists } from './providers';
-import { HttpClientModule, HttpXhrBackend, provideHttpClient, withFetch } from '@angular/common/http';
+import { HttpClientModule, HttpXhrBackend} from '@angular/common/http';
 import { MockXHRBackend } from './mock-xhr-backend';
-import { FETCH_ENABLED, appConfig } from './app.config';
 
 @NgModule({
   declarations: [
